@@ -48,3 +48,13 @@ main{
 
   margin-bottom: 1.5rem;
 }
+
+.recipePrepTimeContainer{
+  background-color: hsl(330, 100%, 98%);
+  padding: 1.3rem;
+  font-family: Outfit, Arial;
+}
+.prepTimeHeading{
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 0.5rem;
+}
