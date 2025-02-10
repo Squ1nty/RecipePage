@@ -26,9 +26,18 @@ main{
 .recipeImgContainer{
   display: block;
   text-align: center;
+  margin-bottom: 2rem;
 }
 .omeletteImg{
   min-width: 20rem;
   width: 40rem;
   border-radius: 0.75rem;
+}
+
+.recipeHeading{
+  font-family: "Young Serif", Serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+
+  margin: 1rem 0;
 }
