@@ -11,8 +11,15 @@ body{
 
   display: grid;
   place-items: center;
+
+  font-size: 1rem;
 }
 main{
   background-color: hsl(0, 0%, 100%);
   display: inline-block;
+}
+
+.omeletteImg{
+  min-width: 20rem;
+  width: 40rem;
 }
