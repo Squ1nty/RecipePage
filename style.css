@@ -53,8 +53,17 @@ main{
   background-color: hsl(330, 100%, 98%);
   padding: 1.3rem;
   font-family: Outfit, Arial;
+  margin-bottom: 0.5rem;
 }
 .prepTimeHeading{
   color: hsl(332, 51%, 32%);
   margin-bottom: 0.5rem;
+}
+.prepTimeList{
+  list-style-position: inside;
+  line-height: 2rem;
+  padding-left: 10px;
+}
+.prepTimeList li::marker{
+  color: hsl(332, 51%, 32%);
 }
