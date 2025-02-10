@@ -41,3 +41,10 @@ main{
 
   margin: 1rem 0;
 }
+
+.recipeDescription{
+  font-family: Outfit, Arial;
+  color: hsl(30, 10%, 34%);
+
+  margin-bottom: 1.5rem;
+}
