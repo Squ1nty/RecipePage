@@ -54,6 +54,7 @@ main{
   padding: 1.3rem;
   font-family: Outfit, Arial;
   margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
 }
 .prepTimeHeading{
   color: hsl(332, 51%, 32%);
