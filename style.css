@@ -19,6 +19,10 @@ main{
   display: inline-block;
 }
 
+.recipeImgContainer{
+  display: block;
+  text-align: center;
+}
 .omeletteImg{
   min-width: 20rem;
   width: 40rem;
