@@ -67,3 +67,12 @@ main{
 .prepTimeList li::marker{
   color: hsl(332, 51%, 32%);
 }
+
+.recipeSubheading{
+  font-family: "Young Serif", Serif;
+  font-weight: 400;
+  font-size: 1.65rem;
+  color: hsl(14, 45%, 36%);
+
+  margin: 1.5rem 0;
+}
