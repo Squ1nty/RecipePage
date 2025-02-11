@@ -87,3 +87,8 @@ main{
 .ingredientList li::marker{
   color:hsl(14, 45%, 36%);
 }
+
+hr.solid{
+  border: 1px solid hsl(30, 18%, 87%);
+  margin-top: 2.2rem;
+}
