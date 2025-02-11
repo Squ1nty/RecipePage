@@ -16,12 +16,23 @@ body{
 
   padding: 10rem 0;
 }
+@media (max-width: 375px){
+  body{
+    padding: 0;
+  }
+  main{
+    width: 100vw;
+  }
+  .omeletteImg{
+    width: 100vw;
+    border-radius: 0;
+  }
+}
 main{
   background-color: hsl(0, 0%, 100%);
   display: inline-block;
   padding: 2.2rem;
   border-radius: 1.2rem;
-  min-width: 20rem;
   width: 40rem;
 }
 
@@ -31,7 +42,6 @@ main{
   margin-bottom: 2rem;
 }
 .omeletteImg{
-  min-width: 20rem;
   width: 40rem;
   border-radius: 0.6rem;
 }
