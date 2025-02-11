@@ -178,4 +178,7 @@ hr.solid{
   .nutritionContainer{
     padding: 0 2.2rem 2.2rem 2.2rem;
   }
+  .recipeHeading{
+    font-size: 2.25rem;
+  }
 }
