@@ -48,7 +48,7 @@ main{
   font-family: Outfit, Arial;
   color: hsl(30, 10%, 34%);
 
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .recipePrepTimeContainer{
@@ -94,21 +94,53 @@ main{
 }
 
 hr.solid{
-  border: 1px solid hsl(30, 18%, 87%);
-  margin-top: 2.2rem;
+  border: none;
+  height: 1px;
+  background-color: hsl(30, 18%, 87%);
+  margin: 1rem 0;
 }
 
 .instructionOL{
   font-family: Outfit, Arial;
   padding-left: 1.3rem;
   color: hsl(30, 10%, 34%);
-  margin-top: 1.2rem;
+  margin: 1.5rem 0 2rem 0;
+
 }
 .instruction{
   margin: 0.8rem 0;
   padding-left: 1rem;
 }
 .instructionOL li::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.nutritionContainer{
+  margin-top: 1.5rem;
+}
+.nutritionDescription{
+  margin: 1.5rem 0;
+  color: hsl(30, 10%, 34%);
+  font-family: Outfit, Arial;
+}
+
+.nutritionTableContainer{
+  display: flex;
+  flex-direction: column;
+}
+.macroAndValueContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  font-family: Outfit, Arial;
+}
+.macroName{
+  padding-left: 2rem;
+  
+  color: hsl(30, 10%, 34%);
+}
+.nutritionalValue{
   color: hsl(14, 45%, 36%);
   font-weight: 700;
 }
