@@ -16,18 +16,7 @@ body{
 
   padding: 10rem 0;
 }
-@media (max-width: 375px){
-  body{
-    padding: 0;
-  }
-  main{
-    width: 100vw;
-  }
-  .omeletteImg{
-    width: 100vw;
-    border-radius: 0;
-  }
-}
+
 main{
   background-color: hsl(0, 0%, 100%);
   display: inline-block;
@@ -162,4 +151,31 @@ hr.solid{
   font-weight: 700;
 
   padding-left: 1rem;
+}
+
+@media (max-width: 600px){
+  body{
+    padding: 0;
+  }
+  main{
+    width: 100vw;
+    border-radius: 0;
+    padding: 0;
+  }
+  .omeletteImg{
+    width: 100vw;
+    border-radius: 0;
+  }
+  .recipeInfoContainer{
+    padding: 0 2.2rem 0 2.2rem;
+  }
+  .ingredientsContainer{
+    padding: 0 2.2rem 0 2.2rem;
+  }
+  .instructionsContainer{
+    padding: 0 2.2rem 0 2.2rem;
+  }
+  .nutritionContainer{
+    padding: 0 2.2rem 2.2rem 2.2rem;
+  }
 }
