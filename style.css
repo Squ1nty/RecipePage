@@ -63,7 +63,6 @@ main{
 .prepTimeList{
   list-style-position: inside;
   line-height: 2rem;
-  padding-left: 10px;
 }
 .prepTimeList li::marker{
   color: hsl(332, 51%, 32%);
@@ -83,6 +82,7 @@ main{
   padding-left: 1.5rem;
   line-height: 2rem;
   color: hsl(30, 10%, 34%);
+  margin-top: 1rem;
 }
 .ingredientList li::marker{
   color:hsl(14, 45%, 36%);
@@ -91,4 +91,18 @@ main{
 hr.solid{
   border: 1px solid hsl(30, 18%, 87%);
   margin-top: 2.2rem;
+}
+
+.instructionOL{
+  font-family: Outfit, Arial;
+  padding-left: 1.3rem;
+  color: hsl(30, 10%, 34%);
+  margin-top: 1.2rem;
+}
+.instruction{
+  margin: 0.8rem 0;
+}
+.instructionOL li::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
 }
