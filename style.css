@@ -13,6 +13,8 @@ body{
   place-items: center;
 
   font-size: 1rem;
+
+  padding: 10rem 0;
 }
 main{
   background-color: hsl(0, 0%, 100%);
