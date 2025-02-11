@@ -75,5 +75,15 @@ main{
   font-size: 1.65rem;
   color: hsl(14, 45%, 36%);
 
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0.8rem 0;
+}
+
+.ingredientList{
+  font-family: Outfit, Arial;
+  padding-left: 1.5rem;
+  line-height: 2rem;
+  color: hsl(30, 10%, 34%);
+}
+.ingredientList li::marker{
+  color:hsl(14, 45%, 36%);
 }
