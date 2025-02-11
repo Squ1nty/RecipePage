@@ -87,6 +87,9 @@ main{
 .ingredientList li::marker{
   color:hsl(14, 45%, 36%);
 }
+.ingredient{
+  padding-left: 1rem;
+}
 
 hr.solid{
   border: 1px solid hsl(30, 18%, 87%);
@@ -101,6 +104,7 @@ hr.solid{
 }
 .instruction{
   margin: 0.8rem 0;
+  padding-left: 1rem;
 }
 .instructionOL li::marker{
   color: hsl(14, 45%, 36%);
